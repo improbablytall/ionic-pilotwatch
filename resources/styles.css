@@ -1,13 +1,43 @@
 .background {
-  viewport-fill: red;
+  viewport-fill: black;
 }
 
-#myLabel {
-  font-size: 80;
-  font-family: System-Bold;
+#mainClock {
+  font-size: 60;
+  font-family: System-Regular;
   text-length: 32;
   text-anchor: middle;
-  x: 50%;
-  y: 50%+40;
+  x: 50%+35;
+  y: 20%+40;
+  fill: white;
+}
+
+#zuluClock {
+  font-size: 60;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%+35;
+  y: 60%+40;
+  fill: white;
+}
+
+#mainClockLabel {
+  font-size: 30;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 3%;
+  y: 20%+40;
+  fill: white;
+}
+
+#scratchpad {
+  font-size: 20;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 3%;
+  y: 80%;
   fill: white;
 }

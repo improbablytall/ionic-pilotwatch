@@ -1,3 +1,6 @@
 <svg class="background">
-  <text id="myLabel" />
+  <text id="mainClockLabel">Home: </text>
+  <text id="mainClock" />
+  <text id="zuluClock" />
+  <text id="scratchPad" />
 </svg>
